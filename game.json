@@ -8,11 +8,11 @@
             "cost"
         ],
         "formats": [
-                 {
-                     "title": "Classic",
-                     "gameplay": "Classic"
-                 }
-             ]
+            {
+                "title": "Classic",
+                "gameplay": "Classic"
+            }
+        ]
     },
     "gameplay": {
         "Classic": {
@@ -26,17 +26,21 @@
                     "selectionRange": {
                         "min": 7
                     },
-                    "steps": ["toBottom", "shuffle", "draw"]
+                    "steps": [
+                        "toBottom",
+                        "shuffle",
+                        "draw"
+                    ]
                 }
             },
             "beforeGameStart": {
-              "initialBoardSetup": [
-                {
-                  "drawFromTop": "deck",
-                  "count": 7,
-                  "destination": "LifeArea"
-                }
-              ]
+                "initialBoardSetup": [
+                    {
+                        "drawFromTop": "deck",
+                        "count": 7,
+                        "destination": "LifeArea"
+                    }
+                ]
             },
             "newTurn": {
                 "drawOnStart": false,
@@ -48,9 +52,15 @@
             "sections": {
                 "layout": {
                     "direction": "row",
+                    "style": {
+                        "gap": "4vh"
+                    },
                     "content": [
                         {
                             "direction": "column",
+                            "style": {
+                                "width": "50vh"
+                            },
                             "content": [
                                 {
                                     "section": "LifeArea"
@@ -62,6 +72,9 @@
                         },
                         {
                             "direction": "column",
+                            "style": {
+                                "width": "80vh"
+                            },
                             "content": [
                                 {
                                     "section": "FrontLine"
@@ -74,16 +87,12 @@
                     ]
                 },
                 "categoriesAlreadyOnBoard": [],
-                "autoPlayFromHand": {
-
-                },
-                "autoPlayFromStack": {
-   
-                },
+                "autoPlayFromHand": {},
+                "autoPlayFromStack": {},
                 "sectionsDict": {
                     "FrontLine": {
                         "isHidden": "no",
-                        "height": 15,
+                        "height": 20,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -91,7 +100,7 @@
                     },
                     "EnergyLine": {
                         "isHidden": "no",
-                        "height": 15,
+                        "height": 20,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -99,7 +108,7 @@
                     },
                     "APArea": {
                         "isHidden": "no",
-                        "height": 15,
+                        "height": 20,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -107,7 +116,7 @@
                     },
                     "LifeArea": {
                         "isHidden": "yes",
-                        "height": 15,
+                        "height": 20,
                         "alignment": "DECK",
                         "isGroupForbidden": true,
                         "displayedTitle": "Life Area"
@@ -117,9 +126,7 @@
         }
     },
     "defaultRessources": {
-        "backgrounds": [
-
-        ],
+        "backgrounds": [],
         "decksUrl": ""
     },
     "customHelp": "",
