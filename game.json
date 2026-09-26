@@ -1,0 +1,134 @@
+{
+    "name": "Union Arena",
+    "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-UnionArena/images/banner.jpg",
+    "deckBuilding": {
+        "mainFilters": [
+            "aspects",
+            "type",
+            "cost"
+        ],
+        "formats": [
+            {
+                "title": "Premier",
+                "gameplay": "Classic"
+            },
+            {
+                "title": "Twin Suns",
+                "gameplay": "Classic"
+            }
+        ]
+    },
+    "gameplay": {
+        "Classic": {
+            "mulligan": {
+                "info": "You can draw a new hand once.",
+                "startingHandSize": 7,
+                "mulliganCount": {
+                    "max": 1
+                },
+                "mulliganCycle": {
+                    "selectionRange": {
+                        "min": 7
+                    },
+                    "steps": ["toBottom", "shuffle", "draw"]
+                }
+            },
+            "beforeGameStart": {
+              "initialBoardSetup": [
+                {
+                  "drawFromTop": "deck",
+                  "count": 7,
+                  "destination": "LifeArea"
+                }
+              ]
+            },
+            "newTurn": {
+                "drawOnStart": false,
+                "drawPerTurn": 1
+            },
+            "tokens": [],
+            "draggableTokens": [],
+            "countersStartingValues": [],
+            "sections": {
+                "layout": {
+                    "direction": "row",
+                    "content": [
+                        {
+                            "direction": "column",
+                            "content": [
+                                {
+                                    "section": "LifeArea"
+                                },
+                                {
+                                    "section": "APArea"
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "content": [
+                                {
+                                    "section": "FrontLine"
+                                },
+                                {
+                                    "section": "EnergyLine"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categoriesAlreadyOnBoard": [],
+                "autoPlayFromHand": {
+
+                },
+                "autoPlayFromStack": {
+   
+                },
+                "sectionsDict": {
+                    "FrontLine": {
+                        "isHidden": "no",
+                        "height": 15,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Front Line"
+                    },
+                    "EnergyLine": {
+                        "isHidden": "no",
+                        "height": 15,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Energy Line"
+                    },
+                    "APArea": {
+                        "isHidden": "no",
+                        "height": 15,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "AP Area"
+                    },
+                    "LifeArea": {
+                        "isHidden": "yes",
+                        "height": 15,
+                        "alignment": "DECK",
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Life Area"
+                    }
+                }
+            }
+        }
+    },
+    "defaultRessources": {
+        "backgrounds": [
+
+        ],
+        "decksUrl": ""
+    },
+    "customHelp": "",
+    "cards": {
+        "dataUrl": "https://valcur.github.io/TCG-Arena-UnionArena/cards.json",
+        "cardBack": "https://valcur.github.io/TCG-Arena-UnionArena/images/cardBack.jpg"
+    }
+}
