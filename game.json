@@ -8,15 +8,11 @@
             "cost"
         ],
         "formats": [
-            {
-                "title": "Premier",
-                "gameplay": "Classic"
-            },
-            {
-                "title": "Twin Suns",
-                "gameplay": "Classic"
-            }
-        ]
+                 {
+                     "title": "Classic",
+                     "gameplay": "Classic"
+                 }
+             ]
     },
     "gameplay": {
         "Classic": {
