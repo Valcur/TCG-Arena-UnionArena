@@ -53,13 +53,13 @@
                 "layout": {
                     "direction": "row",
                     "style": {
-                        "gap": "4vh"
+                        "gap": "6vh"
                     },
                     "content": [
                         {
                             "direction": "column",
                             "style": {
-                                "width": "50vh"
+                                "width": "45vh"
                             },
                             "content": [
                                 {
@@ -73,7 +73,7 @@
                         {
                             "direction": "column",
                             "style": {
-                                "width": "80vh"
+                                "width": "70vh"
                             },
                             "content": [
                                 {
@@ -92,7 +92,7 @@
                 "sectionsDict": {
                     "FrontLine": {
                         "isHidden": "no",
-                        "height": 20,
+                        "height": 18,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -100,7 +100,7 @@
                     },
                     "EnergyLine": {
                         "isHidden": "no",
-                        "height": 20,
+                        "height": 18,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -108,7 +108,7 @@
                     },
                     "APArea": {
                         "isHidden": "no",
-                        "height": 20,
+                        "height": 18,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -116,7 +116,7 @@
                     },
                     "LifeArea": {
                         "isHidden": "yes",
-                        "height": 20,
+                        "height": 18,
                         "alignment": "DECK",
                         "isGroupForbidden": true,
                         "displayedTitle": "Life Area"
