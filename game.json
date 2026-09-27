@@ -168,5 +168,8 @@
     "cards": {
         "dataUrl": "https://valcur.github.io/TCG-Arena-UnionArena/cards.json",
         "cardBack": "https://valcur.github.io/TCG-Arena-UnionArena/images/cardBack.jpg"
-    }
+    },
+    "scriptsUrls": [
+        "https://valcur.github.io/TCG-Arena-UnionArena/functions.jsx"
+    ]
 }
