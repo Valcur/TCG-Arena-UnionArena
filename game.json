@@ -184,7 +184,9 @@
         }
     },
     "defaultRessources": {
-        "backgrounds": [],
+        "backgrounds": [
+            "https://valcur.github.io/TCG-Arena-UnionArena/images/background01.jpg"
+        ],
         "decksUrl": ""
     },
     "customHelp": "Rules: https://www.unionarena-tcg.com/na/pdf/rule_manual.pdf\n\nThanks to ExBusrt.dev for making all the cards available.",
