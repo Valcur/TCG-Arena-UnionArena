@@ -161,7 +161,7 @@
                         "displayedTitle": "Life Area"
                     },
                     "Manager": {
-                        "type": "Custom",
+                        "type": "custom",
                         "defaultValue": {
                             "energy": 0
                         },
@@ -176,7 +176,7 @@
                             "children": "{{ data.Manager.energy }}"
                         },
                         "events": {
-                            "onNewTurn": "functions.chatLog('yo')"
+                            "onNewTurn": "await onNewTurn()"
                         }
                     }
                 }
