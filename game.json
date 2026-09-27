@@ -86,7 +86,9 @@
                         }
                     ]
                 },
-                "categoriesAlreadyOnBoard": [],
+                "categoriesAlreadyOnBoard": [
+                    "AP->APArea"
+                ],
                 "autoPlayFromHand": {},
                 "autoPlayFromStack": {},
                 "sectionsDict": {
@@ -107,7 +109,7 @@
                         "displayedTitle": "Energy Line"
                     },
                     "APArea": {
-                        "isHidden": "no",
+                        "isHidden": "yes",
                         "height": 18,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
