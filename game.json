@@ -21,12 +21,13 @@
                     "max": 53,
                     "maxPerCard": 4
                 },
-                "categories": {
-                    "AP": {
+                "categories": [
+                    {
+                        "category": "AP",
                         "min": 3,
                         "max": 3
                     }
-                }
+                ]
             }
         }
     },
