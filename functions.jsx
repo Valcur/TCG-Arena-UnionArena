@@ -1,12 +1,11 @@
 async function onNewTurn() {
-        console.log("yo", game)
     // If my turn
-    if (!game.data.turn.isMyTurn) {
+    if (!game.turn.isMyTurn) {
         untapAll()
         return
     }
-    const myTurnOrder = game.data.turn.orderPosition
-    const turnCount = game.data.turn.count
+    const myTurnOrder = game.turn.orderPosition
+    const turnCount = game.turn.count
 
     // Add ap to mana
     if (myTurnOrder === 0) {

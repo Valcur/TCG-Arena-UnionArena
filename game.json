@@ -173,7 +173,7 @@
                                     "width": "8rem"
                                 }
                             },
-                            "children": "{{ game.Manager.energy }}"
+                            "children": "{{ game.data.Manager.energy }}"
                         },
                         "events": {
                             "onNewTurn": "await onNewTurn()"
