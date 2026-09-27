@@ -87,10 +87,16 @@
                     ]
                 },
                 "categoriesAlreadyOnBoard": [
-                    "AP->APArea"
+                    "AP->Mana"
                 ],
-                "autoPlayFromHand": {},
-                "autoPlayFromStack": {},
+                "autoPlayFromHand": {
+                    "Event": "Stack"
+                },
+                "autoPlayFromStack": {
+                    "Event": "Discard",
+                    "Character": "Discard",
+                    "Site": "Discard"
+                },
                 "sectionsDict": {
                     "FrontLine": {
                         "isHidden": "no",
@@ -116,6 +122,14 @@
                         "isGroupForbidden": true,
                         "displayedTitle": "AP Area"
                     },
+                    "Mana": {
+                        "isHidden": "no",
+                        "height": 18,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": false,
+                        "isGroupForbidden": false,
+                        "displayedTitle": "AP Area"
+                    },
                     "LifeArea": {
                         "isHidden": "yes",
                         "height": 18,
@@ -131,7 +145,7 @@
         "backgrounds": [],
         "decksUrl": ""
     },
-    "customHelp": "",
+    "customHelp": "Thanks to ExBusrt.dev for making all the cards available.",
     "cards": {
         "dataUrl": "https://valcur.github.io/TCG-Arena-UnionArena/cards.json",
         "cardBack": "https://valcur.github.io/TCG-Arena-UnionArena/images/cardBack.jpg"

@@ -108,7 +108,7 @@ function buildGroups(list) {
 /* ------------------------------------------------------------------------ */
 
 function convertCard(c, primary, name) {
-  const cost = primary.cost ?? 0;
+  const cost = clean(primary.ap) ?? 0; // coût = coût en AP (0 si aucun)
 
   return {
     id: toId(c.cardNo),
@@ -126,7 +126,7 @@ function convertCard(c, primary, name) {
     rarity: clean(c.rarity), // propre à l'impression (★, ★★…)
     color: clean(primary.color),
     power: clean(primary.power), // BP
-    ap: clean(primary.ap), // coût en AP
+    ap: clean(primary.ap),
     generatedEnergy: clean(primary.generatedEnergy),
     traits: splitTraits(primary.attribute),
     triggerType: triggerType(primary.trigger && primary.trigger.text),
