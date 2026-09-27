@@ -10,9 +10,25 @@
         "formats": [
             {
                 "title": "Classic",
-                "gameplay": "Classic"
+                "gameplay": "Classic",
+                "deckRuleset": "Classic"
             }
-        ]
+        ],
+        "deckRulesets": {
+            "Classic": {
+                "general": {
+                    "min": 53,
+                    "max": 53,
+                    "maxPerCard": 4
+                },
+                "categories": {
+                    "AP": {
+                        "min": 3,
+                        "max": 3
+                    }
+                }
+            }
+        }
     },
     "gameplay": {
         "Classic": {
@@ -164,7 +180,7 @@
         "backgrounds": [],
         "decksUrl": ""
     },
-    "customHelp": "Thanks to ExBusrt.dev for making all the cards available.",
+    "customHelp": "Rules: https://www.unionarena-tcg.com/na/pdf/rule_manual.pdf\n\nThanks to ExBusrt.dev for making all the cards available.",
     "cards": {
         "dataUrl": "https://valcur.github.io/TCG-Arena-UnionArena/cards.json",
         "cardBack": "https://valcur.github.io/TCG-Arena-UnionArena/images/cardBack.jpg"
