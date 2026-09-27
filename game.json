@@ -176,7 +176,7 @@
                             "children": "{{ data.Manager.energy }}"
                         },
                         "events": {
-                            "onNewTurn": "await onNewTurn()"
+                            "onNewTurn": "functions.chatLog('yo')"
                         }
                     }
                 }
