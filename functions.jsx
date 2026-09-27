@@ -1,4 +1,5 @@
 async function onNewTurn() {
+        console.log("yo", game)
     // If my turn
     if (!game.data.turn.isMyTurn) {
         untapAll()
