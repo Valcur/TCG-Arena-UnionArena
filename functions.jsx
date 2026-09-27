@@ -24,7 +24,7 @@ async function onNewTurn() {
 async function addAPPoint(count = 1) {
     const remainingAP = cards.APReserve?.length ?? 0
     if (remainingAP < count) return
-    await functions.moveCards(remainingAP.slice(0, count), "Mana")
+    await functions.moveCards(cards.APReserve.slice(0, count), "Mana")
     await functions.repositionCards()
 }
 
