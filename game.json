@@ -136,7 +136,8 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Front Line",
-                        "noQuickActions": true
+                        "noQuickActions": true,
+                        "enterTapped": true
                     },
                     "EnergyLine": {
                         "isHidden": "no",
@@ -145,7 +146,8 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Energy Line",
-                        "noQuickActions": true
+                        "noQuickActions": true,
+                        "enterTapped": true
                     },
                     "APReserve": {
                         "isHidden": "yes",
