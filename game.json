@@ -86,7 +86,12 @@
                                     "section": "Manager"
                                 },
                                 {
-                                    "section": "APReserve"
+                                    "section": "APReserve",
+                                    "style": {
+                                        "position": "absolute",
+                                        "top": 0,
+                                        "left": "-100vw"
+                                    }
                                 },
                                 {
                                     "section": "Mana"
@@ -170,7 +175,9 @@
                             "props": {
                                 "className": "position-absolute top-0 start-0 box-container",
                                 "style": {
-                                    "width": "8rem"
+                                    "width": "8rem",
+                                    "display": "none",
+                                    "marginLeft": "20vh"
                                 }
                             },
                             "children": "{{ game.data.Manager.energy }}"
