@@ -94,7 +94,10 @@
                                     }
                                 },
                                 {
-                                    "section": "Mana"
+                                    "section": "Mana",
+                                    "style": {
+                                        "marginTop": "2vh"
+                                    }
                                 }
                             ]
                         },
@@ -132,7 +135,8 @@
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
-                        "displayedTitle": "Front Line"
+                        "displayedTitle": "Front Line",
+                        "noQuickActions": true
                     },
                     "EnergyLine": {
                         "isHidden": "no",
@@ -140,7 +144,8 @@
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
-                        "displayedTitle": "Energy Line"
+                        "displayedTitle": "Energy Line",
+                        "noQuickActions": true
                     },
                     "APReserve": {
                         "isHidden": "yes",
@@ -152,7 +157,7 @@
                     },
                     "Mana": {
                         "isHidden": "no",
-                        "height": 18,
+                        "height": 16,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": false,
                         "isGroupForbidden": false,
@@ -160,7 +165,7 @@
                     },
                     "LifeArea": {
                         "isHidden": "yes",
-                        "height": 18,
+                        "height": 16,
                         "alignment": "DECK",
                         "isGroupForbidden": true,
                         "displayedTitle": "Life Area"
@@ -192,7 +197,8 @@
     },
     "defaultRessources": {
         "backgrounds": [
-            "https://valcur.github.io/TCG-Arena-UnionArena/images/background01.jpg"
+            "https://valcur.github.io/TCG-Arena-UnionArena/images/background01.jpg",
+            "https://valcur.github.io/TCG-Arena-UnionArena/images/background02.jpg"
         ],
         "decksUrl": ""
     },
