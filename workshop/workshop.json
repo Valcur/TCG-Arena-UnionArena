@@ -1,0 +1,15 @@
+{
+    "author": "PiouPiou",
+    "gameUrl": "https://valcur.github.io/TCG-Arena-UnionArena/game.json",
+    "tags": "",
+    "langs": [
+        "en"
+    ],
+    "useAiArts": false,
+    "screenshotUrls": [
+    ],
+    "descriptionUrl": "https://valcur.github.io/TCG-Arena-UnionArena/workshop/description.md",
+    "updates": [
+        "First release!"
+    ]
+}
