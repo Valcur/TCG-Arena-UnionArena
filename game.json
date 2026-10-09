@@ -4,8 +4,8 @@
     "deckBuilding": {
         "mainFilters": [
             "aspects",
-            "type",
-            "cost"
+            "color",
+            "rarity"
         ],
         "formats": [
             {
