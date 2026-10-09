@@ -70,16 +70,14 @@
                 "layout": {
                     "direction": "row",
                     "style": {
-                        "gap": "6vh"
+                        "gap": "2vh"
                     },
                     "content": [
                         {
                             "direction": "row",
                             "style": {
-                                "width": "45vh",
-                                "position": "absolute",
-                                "left": 0,
-                                "top": 0
+                                "width": "100%",
+                                "justifyContent": "end"
                             },
                             "content": [
                                 {
@@ -87,20 +85,6 @@
                                 },
                                 {
                                     "section": "Manager"
-                                },
-                                {
-                                    "section": "APReserve",
-                                    "style": {
-                                        "position": "absolute",
-                                        "top": 0,
-                                        "left": "-100vw"
-                                    }
-                                },
-                                {
-                                    "section": "Mana",
-                                    "style": {
-                                        "marginTop": "0"
-                                    }
                                 }
                             ]
                         },
@@ -115,6 +99,29 @@
                                 },
                                 {
                                     "section": "EnergyLine"
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "row",
+                            "style": {
+                                "width": "100%",
+                                "justifyContent": "start"
+                            },
+                            "content": [
+                                {
+                                    "section": "APReserve",
+                                    "style": {
+                                        "position": "absolute",
+                                        "top": 0,
+                                        "left": "-100vw"
+                                    }
+                                },
+                                {
+                                    "section": "Mana",
+                                    "style": {
+                                        "marginTop": "0"
+                                    }
                                 }
                             ]
                         }
