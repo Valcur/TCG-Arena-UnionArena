@@ -76,7 +76,6 @@
                         {
                             "direction": "row",
                             "style": {
-                                "width": "100%",
                                 "justifyContent": "end"
                             },
                             "content": [
@@ -105,7 +104,6 @@
                         {
                             "direction": "row",
                             "style": {
-                                "width": "100%",
                                 "justifyContent": "start"
                             },
                             "content": [
