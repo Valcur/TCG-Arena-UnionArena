@@ -6,7 +6,7 @@ async function onNewTurn() {
     }
     const myTurnOrder = game.turn.orderPosition
     const turnCount = game.turn.count
-
+    console.log(myTurnOrder, cards)
     // Add ap to mana
     if (myTurnOrder === 0) {
         if (turnCount <= 5) {
