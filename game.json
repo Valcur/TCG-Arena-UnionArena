@@ -74,9 +74,12 @@
                     },
                     "content": [
                         {
-                            "direction": "column",
+                            "direction": "row",
                             "style": {
-                                "width": "45vh"
+                                "width": "45vh",
+                                "position": "absolute",
+                                "left": 0,
+                                "top": 0
                             },
                             "content": [
                                 {
@@ -96,7 +99,7 @@
                                 {
                                     "section": "Mana",
                                     "style": {
-                                        "marginTop": "2vh"
+                                        "marginTop": "0"
                                     }
                                 }
                             ]
@@ -151,7 +154,7 @@
                     },
                     "APReserve": {
                         "isHidden": "yes",
-                        "height": 2,
+                        "height": 0,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -159,7 +162,7 @@
                     },
                     "Mana": {
                         "isHidden": "no",
-                        "height": 16,
+                        "height": 12,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": false,
                         "isGroupForbidden": false,
@@ -167,7 +170,7 @@
                     },
                     "LifeArea": {
                         "isHidden": "yes",
-                        "height": 16,
+                        "height": 12,
                         "alignment": "DECK",
                         "isGroupForbidden": true,
                         "displayedTitle": "Life Area"
