@@ -104,9 +104,6 @@
                         },
                         {
                             "direction": "row",
-                               "style": {
-                                "justifyContent": "start"
-                            },
                             "content": [
                                 {
                                     "section": "APReserve",
@@ -120,7 +117,10 @@
                                     "section": "Mana",
                                     "style": {
                                         "marginTop": "0",
-                                        "maxWidth": "35vh"
+                                        "maxWidth": "35vh",
+                                        "position": "absolute",
+                                        "top": 0,
+                                        "left": 0
                                     }
                                 }
                             ]
