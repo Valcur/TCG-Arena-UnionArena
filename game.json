@@ -104,27 +104,23 @@
                         },
                         {
                             "direction": "row",
+                            "isSymetricalForOpponents": true,
                             "content": [
                                 {
-                                    "direction": "row",
-                                    "content": [
-                                        {
-                                            "section": "APReserve",
-                                            "style": {
-                                                "position": "absolute",
-                                                "top": 0,
-                                                "left": "-100vw"
-                                            }
-                                        },
-                                        {
-                                            "section": "Mana",
-                                            "style": {
-                                                "marginTop": "0",
-                                                "maxWidth": "35vh",
-                                                "marginRight": "auto"
-                                            }
-                                        }
-                                    ]
+                                    "section": "APReserve",
+                                    "style": {
+                                        "position": "absolute",
+                                        "top": 0,
+                                        "left": "-100vw"
+                                    }
+                                },
+                                {
+                                    "section": "Mana",
+                                    "style": {
+                                        "marginTop": "0",
+                                        "maxWidth": "35vh",
+                                        "marginRight": "auto"
+                                    }
                                 }
                             ]
                         }
