@@ -76,12 +76,13 @@
                     "content": [
                         {
                             "direction": "row",
-                            "style": {
-                                "justifyContent": "end"
-                            },
+                            "isSymetricalForOpponents": false,
                             "content": [
                                 {
-                                    "section": "LifeArea"
+                                    "section": "LifeArea",
+                                    "style": {
+                                        "marginLeft": "auto"
+                                    }
                                 },
                                 {
                                     "section": "Manager"
@@ -104,9 +105,7 @@
                         },
                         {
                             "direction": "row",
-                            "style": {
-                                "justifyContent": "start"
-                            },
+                            "isSymetricalForOpponents": false,
                             "content": [
                                 {
                                     "section": "APReserve",
@@ -120,7 +119,8 @@
                                     "section": "Mana",
                                     "style": {
                                         "marginTop": "0",
-                                        "maxWidth": "35vh"
+                                        "maxWidth": "35vh",
+                                        "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -173,7 +173,10 @@
                         "alignment": "CENTER",
                         "isHorizontalAllowed": false,
                         "isGroupForbidden": false,
-                        "displayedTitle": "AP Area"
+                        "displayedTitle": "AP Area",
+                        "cardActionShortcut": {
+                            "action": "NONE"
+                        }
                     },
                     "LifeArea": {
                         "isHidden": "yes",
@@ -185,8 +188,7 @@
                     "Manager": {
                         "type": "custom",
                         "defaultValue": {
-                            "energy": 0,
-                            "isFirstPlayer": false
+                            "energy": 0
                         },
                         "blueprint": {
                             "type": "div",
