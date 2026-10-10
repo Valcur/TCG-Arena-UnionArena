@@ -106,22 +106,27 @@
                             "direction": "row",
                             "content": [
                                 {
-                                    "section": "APReserve",
+                                    "direction": "row",
                                     "style": {
-                                        "position": "absolute",
-                                        "top": 0,
-                                        "left": "-100vw"
-                                    }
-                                },
-                                {
-                                    "section": "Mana",
-                                    "style": {
-                                        "marginTop": "0",
-                                        "maxWidth": "35vh",
-                                        "position": "absolute",
-                                        "top": 0,
-                                        "left": 0
-                                    }
+                                        "justifyContent": "start"
+                                    },
+                                    "content": [
+                                        {
+                                            "section": "APReserve",
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": 0,
+                                                "left": "-100vw"
+                                            }
+                                        },
+                                        {
+                                            "section": "Mana",
+                                            "style": {
+                                                "marginTop": "0",
+                                                "maxWidth": "35vh"
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
