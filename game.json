@@ -76,13 +76,12 @@
                     "content": [
                         {
                             "direction": "row",
-                            "isSymetricalForOpponents": false,
+                            "style": {
+                                "justifyContent": "end"
+                            },
                             "content": [
                                 {
-                                    "section": "LifeArea",
-                                    "style": {
-                                        "marginLeft": "auto"
-                                    }
+                                    "section": "LifeArea"
                                 },
                                 {
                                     "section": "Manager"
@@ -105,7 +104,9 @@
                         },
                         {
                             "direction": "row",
-                            "isSymetricalForOpponents": false,
+                               "style": {
+                                "justifyContent": "start"
+                            },
                             "content": [
                                 {
                                     "section": "APReserve",
@@ -119,8 +120,7 @@
                                     "section": "Mana",
                                     "style": {
                                         "marginTop": "0",
-                                        "maxWidth": "35vh",
-                                        "marginRight": "auto"
+                                        "maxWidth": "35vh"
                                     }
                                 }
                             ]
