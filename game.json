@@ -55,7 +55,7 @@
                     {
                         "drawFromTop": "deck",
                         "count": 7,
-                        "destination": "LifeArea"
+                        "destination": "Life"
                     }
                 ]
             },
@@ -76,12 +76,13 @@
                     "content": [
                         {
                             "direction": "row",
-                            "style": {
-                                "justifyContent": "end"
-                            },
+                            "isSymetricalForOpponents": true,
                             "content": [
                                 {
-                                    "section": "LifeArea"
+                                    "section": "Life",
+                                    "style": {
+                                        "marginLeft": "auto"
+                                    }
                                 },
                                 {
                                     "section": "Manager"
@@ -177,12 +178,12 @@
                             "action": "NONE"
                         }
                     },
-                    "LifeArea": {
+                    "Life": {
                         "isHidden": "yes",
                         "height": 11,
                         "alignment": "DECK",
                         "isGroupForbidden": true,
-                        "displayedTitle": "Life Area"
+                        "displayedTitle": "Life"
                     },
                     "Manager": {
                         "type": "custom",
