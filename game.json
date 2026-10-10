@@ -107,9 +107,6 @@
                             "content": [
                                 {
                                     "direction": "row",
-                                    "style": {
-                                        "justifyContent": "start"
-                                    },
                                     "content": [
                                         {
                                             "section": "APReserve",
@@ -123,7 +120,8 @@
                                             "section": "Mana",
                                             "style": {
                                                 "marginTop": "0",
-                                                "maxWidth": "35vh"
+                                                "maxWidth": "35vh",
+                                                "marginRight": "auto"
                                             }
                                         }
                                     ]
