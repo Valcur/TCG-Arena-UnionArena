@@ -76,12 +76,12 @@
                     "content": [
                         {
                             "direction": "row",
-                            "style": {
-                                "justifyContent": "end"
-                            },
                             "content": [
                                 {
-                                    "section": "LifeArea"
+                                    "section": "LifeArea",
+                                    "style": {
+                                        "marginLeft": "auto"
+                                    }
                                 },
                                 {
                                     "section": "Manager"
@@ -104,9 +104,6 @@
                         },
                         {
                             "direction": "row",
-                            "style": {
-                                "justifyContent": "start"
-                            },
                             "content": [
                                 {
                                     "section": "APReserve",
@@ -120,7 +117,8 @@
                                     "section": "Mana",
                                     "style": {
                                         "marginTop": "0",
-                                        "maxWidth": "35vh"
+                                        "maxWidth": "35vh",
+                                        "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -185,8 +183,7 @@
                     "Manager": {
                         "type": "custom",
                         "defaultValue": {
-                            "energy": 0,
-                            "isFirstPlayer": false
+                            "energy": 0
                         },
                         "blueprint": {
                             "type": "div",

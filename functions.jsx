@@ -6,8 +6,7 @@ async function onNewTurn() {
     }
 
     const turnCount = game.turn.count
-    game.data.Manager.isFirstPlayer = turnCount % 2 === 0
-    if (game.data.Manager.isFirstPlayer) {
+    if (turnCount % 2 === 1) {
         if (turnCount <= 5) {
             addAPPoint(1)
         }
