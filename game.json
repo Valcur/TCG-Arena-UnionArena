@@ -69,8 +69,9 @@
             "sections": {
                 "layout": {
                     "direction": "row",
+                    "isSymetricalForOpponents": true,
                     "style": {
-                        "gap": "2vh"
+                        "gap": "3vh"
                     },
                     "content": [
                         {
@@ -118,7 +119,8 @@
                                 {
                                     "section": "Mana",
                                     "style": {
-                                        "marginTop": "0"
+                                        "marginTop": "0",
+                                        "maxWidth": "35vh"
                                     }
                                 }
                             ]
@@ -167,7 +169,7 @@
                     },
                     "Mana": {
                         "isHidden": "no",
-                        "height": 12,
+                        "height": 11,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": false,
                         "isGroupForbidden": false,
@@ -175,7 +177,7 @@
                     },
                     "LifeArea": {
                         "isHidden": "yes",
-                        "height": 12,
+                        "height": 11,
                         "alignment": "DECK",
                         "isGroupForbidden": true,
                         "displayedTitle": "Life Area"
@@ -183,7 +185,8 @@
                     "Manager": {
                         "type": "custom",
                         "defaultValue": {
-                            "energy": 0
+                            "energy": 0,
+                            "isFirstPlayer": false
                         },
                         "blueprint": {
                             "type": "div",

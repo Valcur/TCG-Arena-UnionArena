@@ -4,15 +4,14 @@ async function onNewTurn() {
         untapAll()
         return
     }
-    const myTurnOrder = game.turn.orderPosition
+
     const turnCount = game.turn.count
-    console.log(myTurnOrder, cards, game)
-    // Add ap to mana
-    if (myTurnOrder === 0) {
+    game.data.Manager.isFirstPlayer = turnCount % 2 === 0
+    if (game.data.Manager.isFirstPlayer) {
         if (turnCount <= 5) {
             addAPPoint(1)
         }
-    } else if (myTurnOrder === 1) {
+    } else {
         if (turnCount === 2) {
             addAPPoint(2)
         } else if (turnCount === 6) {
